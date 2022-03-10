@@ -1,0 +1,10 @@
+echo "Please enter the new user's name you want to create"
+read name
+adduser $name
+echo "$name user created successfuly"
+
+sh usermgt.sh
+echo "Please enter the new user's name you want to create"
+read name
+sudo adduser $name
+echo "$name user created successfuly"
